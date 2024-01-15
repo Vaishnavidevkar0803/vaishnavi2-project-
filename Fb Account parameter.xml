@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNG parameter">
+	  <parameter name="firstname" value="vaish"/>
+	  <parameter name="lastname" value="devkar"/>
+	  <parameter name="email" value="vaish@gmail.com"/>
+    <classes>
+      <class name="tesNg_xml.FbAccount_XMLFile"/>
+    </classes>
+  </test> <!-- TestNG parameter -->
+</suite> <!-- Suite -->
